@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
+  <meta name="author" content="Creative Tim">
+  <title>Input</title>
+  <!-- Favicon -->
+  <link rel="icon" href="../assets/img/brand/favicon.png" type="image/png">
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+  <!-- Icons -->
+  <link rel="stylesheet" href="../assets/vendor/nucleo/css/nucleo.css" type="text/css">
+  <link rel="stylesheet" href="../assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" type="text/css">
+  <!-- Page plugins -->
+  <!-- Argon CSS -->
+  <link rel="stylesheet" href="../assets/css/argon.css?v=1.2.0" type="text/css">
+</head>
+
+<body>
+  <!-- Sidenav -->
+  <nav class="sidenav navbar navbar-vertical  fixed-left  navbar-expand-xs navbar-light bg-white" id="sidenav-main">
+    <div class="scrollbar-inner">
+      <!-- Brand -->
+      <div class="sidenav-header  align-items-center">
+        <a class="navbar-brand" href="javascript:void(0)">
+          <img src="../assets/img/brand/blue.png" class="navbar-brand-img" alt="...">
+        </a>
+      </div>
+      <div class="navbar-inner">
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="sidenav-collapse-main">
+          <!-- Nav items -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="dashboard.html">
+                <i class="ni ni-tv-2 text-primary"></i>
+                <span class="nav-link-text">Dashboard</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="examples/input.html">
+                <i class="ni ni-planet text-orange"></i>
+                <span class="nav-link-text">Input</span>
+              </a>
+            </li>
+          <!-- Divider -->
+          <hr class="my-3">
+          <!-- Heading -->
+          <h6 class="navbar-heading p-0 text-muted">
+            <span class="docs-normal">Documentation</span>
+          </h6>
+          <!-- Navigation -->
+          <ul class="navbar-nav mb-md-3">
+            <li class="nav-item">
+              <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/getting-started/overview.html" target="_blank">
+                <i class="ni ni-spaceship"></i>
+                <span class="nav-link-text">Getting started</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/foundation/colors.html" target="_blank">
+                <i class="ni ni-palette"></i>
+                <span class="nav-link-text">Foundation</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/components/alerts.html" target="_blank">
+                <i class="ni ni-ui-04"></i>
+                <span class="nav-link-text">Components</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/plugins/charts.html" target="_blank">
+                <i class="ni ni-chart-pie-35"></i>
+                <span class="nav-link-text">Plugins</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Main content -->
+  <div class="main-content" id="panel">
+    <!-- Topnav -->
+    <nav class="navbar navbar-top navbar-expand navbar-dark bg-primary border-bottom">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Search form -->
+          <form class="navbar-search navbar-search-light form-inline mr-sm-3" id="navbar-search-main">
+            <div class="form-group mb-0">
+              <div class="input-group input-group-alternative input-group-merge">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fas fa-search"></i></span>
+                </div>
+                <input class="form-control" placeholder="Search" type="text">
+              </div>
+            </div>
+            <button type="button" class="close" data-action="search-close" data-target="#navbar-search-main" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </form>
+          <!-- Navbar links -->
+          <ul class="navbar-nav align-items-center  ml-md-auto ">
+            <li class="nav-item d-xl-none">
+              <!-- Sidenav toggler -->
+              <div class="pr-3 sidenav-toggler sidenav-toggler-dark" data-action="sidenav-pin" data-target="#sidenav-main">
+                <div class="sidenav-toggler-inner">
+                  <i class="sidenav-toggler-line"></i>
+                  <i class="sidenav-toggler-line"></i>
+                  <i class="sidenav-toggler-line"></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Header -->
+    <!-- Header -->
+    <div class="header bg-primary pb-6">
+      <div class="container-fluid">
+        <div class="header-body">
+          <div class="row align-items-center py-4">
+            <div class="col-lg-6 col-7">
+              <h6 class="h2 text-white d-inline-block mb-0">Default</h6>
+              <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
+                <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
+                  <li class="breadcrumb-item"><a href="#"><i class="fas fa-home"></i></a></li>
+                  <li class="breadcrumb-item"><a href="#">Input</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Default</li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page content -->
+    <div class="container-fluid mt--6">
+      <div class="row justify-content-center">
+        <div class="col">
+          <div class="card">
+            <div class="card-header bg-transparent">
+              <h3 id="title" class="mb-0">Input Data To Firebase</h3>
+              <div class="d-flex justify-content-end">
+                <button id="btnInput" class="btn btn-primary">Input</button>
+                <button id="btnUpdate" class="btn btn-primary">update</button>
+                <button id="btnDelete" class="btn btn-primary">delete</button>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="example-number-input" class="form-control-label">ID</label>
+                  <input class="form-control" type="number" value="0" id="idInput"><br>
+                  <ul class="nav nav-pills justify-content-end">
+                    <button id="btnSelection" type="button" style="display:none" class="btn btn-primary btn-sm">Selection with ID</button>
+                  </ul>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Teks Arab</label>
+                <textarea class="form-control" id="teksArabTextarea" rows="3"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Teks Latin</label>
+                <textarea class="form-control" id="teksLatinTextarea" rows="3"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Terjemahan</label>
+                <textarea class="form-control" id="terjemahanTextarea" rows="3"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Tag #</label>
+                <input id="tagInput" type="text" class="form-control" placeholder="Tag">
+              </div>
+              <button id="btnSubmit" class="btn btn-icon btn-primary" type="button">
+                <span class="btn-inner--icon"><i class="ni ni-spaceship"></i></span>
+                  <span id="textButtons" class="btn-inner--text">submit</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <!-- firebaseScripts -->
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script> 
+
+  <script id = "MainScript">
+    var firebaseConfig = {
+      apiKey: "AIzaSyD6tvFe-DGrglTzBG7LgDi7hRpfFBurBdI",
+      authDomain: "myapplication-a56ff.firebaseapp.com",
+      databaseURL: "https://myapplication-a56ff-default-rtdb.firebaseio.com",
+      projectId: "myapplication-a56ff",
+      storageBucket: "myapplication-a56ff.appspot.com",
+      messagingSenderId: "1086329621381",
+      appId: "1:1086329621381:web:e16d055d76ba168b4fd2ec",
+      measurementId: "G-Z4HHRPJ4GJ"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    //firebase.analytics();
+
+    var teksArab,teksLatin,terjemah
+    var id,tag
+    var titleTop = document.getElementById("title")
+    var btnSubmit = document.getElementById("btnSubmit")
+    var textButtons = document.getElementById("textButtons")
+
+    function getValueText() {
+      id = document.getElementById("idInput").value;
+      teksArab = document.getElementById("teksArabTextarea").value;
+      teksLatin = document.getElementById("teksLatinTextarea").value;
+      terjemah = document.getElementById("terjemahanTextarea").value;
+      tag = document.getElementById("tagInput").value;
+    }
+
+    document.getElementById("btnInput").onclick = function(){
+      titleTop.innerText = "Input Data to Firebase";
+      textButtons.innerText = "submit"
+      hide("btnSelection")
+    }
+
+    document.getElementById("btnUpdate").onclick = function(){
+      titleTop.innerText = "Update Data in Firebase with ID";
+      textButtons.innerText = "update"
+      show("btnSelection")
+    }
+
+    document.getElementById("btnDelete").onclick = function(){
+      titleTop.innerText = "Delete Data from Firebase with ID";
+      textButtons.innerText = "delete"
+      show("btnSelection")
+    }
+
+    // hideElementWitID
+    function hide(id) {
+      document.getElementById(id).style.display = "none";
+    }
+    function show(id) {
+      document.getElementById(id).style.display = "";
+    }
+
+    // Input Data To Firebase
+    btnSubmit.onclick = function(){
+      if(textButtons.innerText === "submit"){
+        getValueText();
+        firebase.database().ref("Data/KumpulanDoa/"+id).set({
+          id:id,
+          teksArab:teksArab,
+          teksLatin:teksLatin,
+          terjemah:terjemah,
+          tag:tag
+        }, (error) => {
+          if(error){
+            console.log(error)
+          }else{
+            console.log("berhasil")
+          }
+          
+        }) 
+      }else if(textButtons.innerText === "update"){
+      
+      }else if(textButtons.innerText === "delete"){
+        
+      }
+    }
+
+  </script>
+
+  <!-- Argon Scripts -->
+  <!-- Core -->
+  <script src="../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/js-cookie/js.cookie.js"></script>
+  <script src="../assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js"></script>
+  <script src="../assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js"></script>
+  <!-- Optional JS -->
+  <script src="../assets/vendor/chart.js/dist/Chart.min.js"></script>
+  <script src="../assets/vendor/chart.js/dist/Chart.extension.js"></script>
+  <!-- Argon JS -->
+  <script src="../assets/js/argon.js?v=1.2.0"></script>
+  
+  <!-- input -->
+  <script src="../assets/js/firebase/input.js"></script>
+</body>
+
+</html>
